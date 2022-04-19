@@ -1,0 +1,77 @@
+* {
+    font-family: "Space Mono", monospace;
+    padding: 2px 0px 0 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+}
+
+#scarecrow {
+    margin: auto;
+    width: auto;
+    height: 450px;
+    padding-right: 48px;
+}
+
+#navbar {
+    font-family: "Inconsolata", monospace;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#title {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#description {
+    color: #4f4f4f;
+    display: table;
+    font-size: 20px;
+    padding-bottom: 90px;
+    width: 50vh;
+}
+
+#btnBack {
+    background-color: #333333;
+    color: white;
+    border: 0px;
+    padding: 20px 35px 20px 35px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+footer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    color: #bdbdbd;
+    padding-top: 100px;
+}
+
+#footer-span {
+    padding: 110px 0 10px 0;
+    font-size: 12px;
+}
+
+a {
+    color: #bdbdbd;
+    font-weight: 700;
+}
